@@ -25,6 +25,7 @@
 .searchInput {
     display: flex;
     background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
     padding: 8px;
@@ -50,8 +51,9 @@ label {
 input {
     background: none;
     border: none;
-    border-radius: 6px;
     color: #FFF;
     min-width: 70vw;
     height: 4em;
 }
+
+/* Cards */
