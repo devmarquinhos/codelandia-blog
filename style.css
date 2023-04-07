@@ -5,6 +5,10 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
+body {
+    background-color: #F3F5F7;
+}
+
 /* Header */
 #headerContainer {
     display: flex;
@@ -57,3 +61,43 @@ input {
 }
 
 /* Cards */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFF;
+    border-radius: 6px;
+    padding: 32px;
+    margin: 25px 25px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+}
+
+.cardInfo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.cardInfo h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #0000007d;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardContent h2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cardContent p {
+    font-size: 12px;
+}
